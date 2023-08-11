@@ -4,7 +4,7 @@ import Lobby from "./pages/lobby/Lobby";
 import CodeBlock from "./pages/codeBlock/CodeBlock";
 import './App.scss'
 
-const serverUrl = process.env.REACT_APP_SERVER_URL || "";
+const serverUrl = 'https://bensbutnotben.onrender.com'
 const socket: Socket = io(serverUrl);
 
 const App = () => {
